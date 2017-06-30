@@ -1,0 +1,62 @@
+#built application files
+*.apk
+*.ap_
+
+common/com.mobiledefense.common.aar
+sdk/com.pocketgeek.sdk.aar
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse files
+*.properties
+.classpath
+.settings/
+.project
+.externalToolBuilders/
+.stack-work/
+
+#intellij
+.idea/
+*.iml
+out/
+
+# merge artifacts
+*.orig
+
+# app specific files
+res/xml/md_settings.xml
+res/values/md_settings.xml
+target/
+android-sdk.properties
+
+# mac droppings
+.DS_Store
+
+*~
+
+#gradle related:
+.gradle
+!gradle.properties
+!gradle/wrapper/gradle-wrapper.properties
+
+#Tools binaries
+dist/
+*.swp
+
+!apns.sqlite
+
+#prebuilt libraries
+MobileDefense/libs/com.mobiledefense.common.aar
+MobileDefense/libs/com.pocketgeek.sdk.aar

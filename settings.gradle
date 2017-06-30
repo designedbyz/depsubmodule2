@@ -1,0 +1,3 @@
+include ':module'
+include 'depsubmodule'
+project(':depsubmodule').projectDir = new File('../depsubmodule/module')
